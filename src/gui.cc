@@ -547,21 +547,21 @@ milton_imgui_tick(MiltonInput* input, PlatformState* platform,  Milton* milton)
 
     int color_stack = 0;
 
-    static auto color_window_background = ImVec4{.929f, .949f, .957f, 1};
-    //static auto color_title_bg        = ImVec4{.957f,.353f, .286f,1};
-    static auto color_title_bg          = color_window_background;
-    static auto color_title_fg          = ImVec4{151/255.f, 184/255.f, 210/255.f, 1};
+    static auto color_window_background = ImVec4{.5f, .5f, .5f, 1};
+    //static auto color_title_bg          = color_window_background;
+    static auto color_title_bg          = ImVec4{.2f,.2f, .2f,1};
+    static auto color_title_fg          = ImVec4{.4f, .4f, .4f, 1};
 
-    static auto color_buttons         = ImVec4{.686f, .796f, 1.0f, 1};
-    static auto color_buttons_active  = ImVec4{.886f, .796f, 1.0f, 1};
-    static auto color_buttons_hovered = ImVec4{.706f, .816f, 1.0f, 1};
+    static auto color_buttons           = ImVec4{.2f, .2f, .2f, 1};
+    static auto color_buttons_active    = ImVec4{.1f, .1f, .1f, 1};
+    static auto color_buttons_hovered   = ImVec4{.3f, .3f, .3f, 1};
 
-    static auto color_menu_bg        = ImVec4{.784f, .392f, .784f, 1};
-    static auto color_text           = ImVec4{.2f,.2f,.2f,1};
-    static auto color_slider         = ImVec4{ 148/255.f, 182/255.f, 182/255.f,1};
-    static auto frame_background     = ImVec4{ 0.862745f, 0.862745f, 0.862745f,1};
-    static auto color_text_selected  = ImVec4{ 0.509804f, 0.627451f, 0.823529f,1};
-    static auto color_header_hovered = color_buttons;
+    static auto color_menu_bg           = ImVec4{.2f, .2f, .2f, 1};
+    static auto color_text              = ImVec4{1.0f,1.0f,1.0f,1};
+    static auto color_slider            = ImVec4{.5f, .5f, .5f,1};
+    static auto frame_background        = ImVec4{.4f, .4f, .4f,1};
+    static auto color_text_selected     = ImVec4{0.4f, 0.4f, 0.4f,1};
+    static auto color_header_hovered    = color_buttons;
 
     // Helper Imgui code to select color scheme
 #if 0
